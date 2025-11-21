@@ -143,7 +143,8 @@ AUTH_USER_MODEL = 'Accounts.User'
 #CORS_ALLOW_ALL_ORIGINS = True
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",  # or your frontend URL
+    "http://localhost:3000",
+    "https://ecolivefrontendv2.vercel.app",  # or your frontend URL
 ]
 
 CSRF_TRUSTED_ORIGINS = [
