@@ -4,3 +4,4 @@ psycopg2-binary     # if using PostgreSQL
 djangorestframework # if needed
 django-cors-headers # if needed
 python-dotenv 
+whitenoise
